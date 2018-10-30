@@ -1,0 +1,16 @@
+fullAdress,Неструктурированный адрес,#ERROR!,String
+isDelivery,Признак адреса доставки,#ERROR!,String
+createdDate,Дата создания адреса,#ERROR!,String
+region,Область регион,-,String
+street,"Улица, мкр",-,Date
+house,Дом/строение,-,String
+flat,Квартира/офис,-,String
+city,Город,-,String
+type,Тип адреса,#ERROR!,String
+district,Район/микрорайон,-,String
+country,Страна,-,String
+postalCode,Индекс,-,String
+cityId,Id города,-,String
+countryId,Id страны,-,String
+regionId,Id области,-,String
+districtId,Id района/микрорайона,-,String

@@ -1,0 +1,17 @@
+startBalance,Входящий баланс на дату Bdate,=+,Float,
+endBalance,Исходящий баланс на дату Edate,=+,Float,
+count,Количество операций за указанный временной промежуток,=+,Integer,
+capId,Идентификатор транзакции,-,Integer,присутствует только в случае если транзакции инициирована через модуль ПС24
+iban,Iban номер счета,=+,String,
+description,Описание операции,=+,String,
+amount,Cумма в валюте операции,=+,String,
+currency,Код Валюты,=+,String,
+operationType,Тип операции (описание типа операции),=+,String,
+operationDate,Дата проведения операции,=+,DateTime,yyyy-mm-ddThh:mm:ss
+aditionalDesc,Дополнительное описание операции,-,String,
+rowNum,Порядковый номер операции,=+,Integer,"для пагинации, номер строки справедливый для выборки за заданный период"
+requestDate,Дата инициации транзакции,-,Date,yyyy-mm-ddThh:mm:ss
+tranId,Идентификатор транзакции Колвир,#ERROR!,Integer,
+amountKzt,Эквивалент в тенге,-,String,
+payer,Плательщик,-,String,
+beneficiary,Получатель,-,String,

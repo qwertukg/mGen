@@ -1,0 +1,5 @@
+type,тип документа,#ERROR!,String,тип документа
+number,номер документа,#ERROR!,String,номер документа
+issueDate,дата выпуска,-,String,дата выпуска
+expireDate,дата истечения,-,String,дата истечения
+issuedBy,Кем выдано,-,String,Кем выдано

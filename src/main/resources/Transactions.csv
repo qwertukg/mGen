@@ -1,0 +1,5 @@
+dateBegin,Дата начала временного промежутка,=+,Date,yyyy-mm-dd
+dateEnd,Дата окончания временного промежутка,=+,Date,yyyy-mm-dd
+iban,Iban номер счета,-,string,
+rowFrom,строка с,-,Integer,для пагинации
+rowTo,строка до,-,Integer,для пагинации

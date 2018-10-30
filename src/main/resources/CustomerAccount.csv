@@ -1,0 +1,22 @@
+customerId,Идентификатор клиента в Колвире,#ERROR!,String,Уникальный идентификатор клиента в ABS
+customerTaxCode,БИН/ИИН Клиента,#ERROR!,String,
+iban,Номер счета,#ERROR!,String,
+Currency,Валюта счета,#ERROR!,String,- трёхбуквенный алфавитный (alfa-3) код валюты
+Gk,БС,#ERROR!,String,"Балансовый 4-х значный код счета
+ Необходимо из Колвира передать 4х значный БС по счету, для дальнейшего определения вида счета."
+typeCard,флаг,-,String,"флаг 1 – есть привязанные карты к счету
+  Привязанных карт нет"
+Alias,Название счета,#ERROR!,String,
+bankBranch,Филиал,#ERROR!,String,"Ссылка на филиал, externalId в BankBranchData"
+Opened,Дата открытия,#ERROR!,Date,
+Closed,Дата закрытия,-,Date,"Указывается, если счет закрыт, соответственно поле не обязательное"
+Lastmov,Дата последнего движения,#ERROR!,Date,
+Balance,Остаток,#ERROR!,Money,
+blockedBalance,Блокированная сумма,#ERROR!,Money,
+Status,Статус счета,#ERROR!,enum,"externalId в SimpleDictionaryData (Статус счета)
+ Статусы:
+ 1 – Открытый
+ 2 – Закрытый
+ 3 – Заблокирован – в деталях причина блокировки"
+productCode,,#ERROR!,String,
+productName,,#ERROR!,String,
